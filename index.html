@@ -4,49 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><Document></title><script src="https://kit.fontawesome.com/977c7bfdff.js" crossorigin="anonymous"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/7d61db1ee7.js" crossorigin="anonymous"></script>
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap" rel="stylesheet">
+    <!--my css-->
+    <link rel="stylesheet" href="./styles.css">
+    <title>Contact Page</title>
 </head>
-<body style="background-image: img src;">
-<link rel="stylesheet" href="./styling.css">
-<h1>CONTACTS</h1>
-<table ><link rel="stylesheet" href="./styling.css">
-<tr>
-    <th>Phone</th>
-<th>Email</th>
-<th>Location</th>
-</tr>
-<tr>
-    <td>021 076 6600</td>
-    <td>Final Destination</td>
-    <td>Cape Town,WaterFront</td>
-</tr>
-</table>
-<hr>
-    <form action="/action_page.php">
-<label for="fname">Name and Surname</label>
-<input type="text" id="fname" name="fname" value="Lihle Goliath">
-<label for="lname">Email</label>
-<input type="text" id="lname" value="lihlegoliath2@gmail.com">
-<input type="submit" value="Submit"
-    </form>
-    <p>Apply Now before the season ends</p>
-    <hr>
-    <footer>
-    <h2>Final Destination
-        <i class="fa-brands fa-twitter-square"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-solid fa-at"></i>
-        <i class="fa-solid fa-phone"></i>
-    </h2>
-    <link rel="stylesheet" href="./styling.css">
-<p class="footer-links">
-    <a href="">Home</a>
-    <a href="">About</a>
-    <a href="">Portfolio</a>
-    <a href="">Services</a>
-    <a href="">Team</a>
-    <a href="">Contacts</a>
-</p>
-</footer>
+<body>
+    <h1>
+        Contact Us
+    </h1>
+    <div class="container">
+        <div class="row">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+        </div>
+    </div>
+   
+    
 </body>
 </html>
