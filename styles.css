@@ -1,0 +1,67 @@
+body {
+    background-image: url(./colour.jpg);
+}
+
+.Jumbotron {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: Rubik Microbe;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Rubik Microbe;
+}
+
+p {
+    font-size: 20px;
+}
+
+.Image {
+    border: 5px solid white;
+    transform: translate( 100%);
+    
+}
+
+.description {
+    border: 5px solid white;
+    margin-left: 250px;
+    margin-right: 180px;
+}
+
+.image_img {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
