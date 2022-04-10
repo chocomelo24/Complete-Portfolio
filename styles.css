@@ -1,0 +1,41 @@
+h1 {
+    font-size: 100px;
+    font-family: Rubik Microbe;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Rubik Microbe;
+}
+
+p { 
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header {
+    width: 100%;
+    background-image: url(./josh-rose-trYl7JYATH0-unsplash\ \(1\).jpg);
+    background-size: cover;
+}
+
+.Image_img {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+}
+
+
+
+.row {
+    display: flex;
+    margin-left: 120px;
+}
+
+.Team_des {
+    border: 5px solid black;
+    margin-bottom: 50px;
+}
