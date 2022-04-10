@@ -1,3 +1,7 @@
+body {
+    background-image: url(./colour.jpg) ;
+}
+
 h1 {
     font-size: 100px;
     font-family: Rubik Microbe;
@@ -16,12 +20,6 @@ p {
     font-weight: bold;
 }
 
-.header {
-    width: 100%;
-    background-image: url(./josh-rose-trYl7JYATH0-unsplash\ \(1\).jpg);
-    background-size: cover;
-}
-
 .Image_img {
     width: 150px;
     height: 150px;
@@ -36,6 +34,6 @@ p {
 }
 
 .Team_des {
-    border: 5px solid black;
+    border: 5px solid white;
     margin-bottom: 50px;
 }
